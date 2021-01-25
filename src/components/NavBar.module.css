@@ -1,0 +1,66 @@
+.navBarContainer {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background: lightslategrey;
+  color: darkblue;
+  text-align: center;
+}
+.col1 {
+  margin: 0;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+}
+
+.col2 {
+  padding-left: 12%;
+  margin: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  float: center;
+}
+.title {
+  color: darkblue;
+}
+.col3 {
+  display: inline-flex;
+  flex-direction: row;
+  float: end;
+  margin: 15px;
+}
+.navButtons {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(52, 32, 240);
+  margin: 10px;
+  margin-top: 95px;
+}
+.navButtons:hover {
+  color: lightpink;
+}
+@media screen and (max-width: 778px) {
+  .navButtons {
+    margin-top: 10px;
+  }
+  .col3 {
+    flex-direction: column;
+  }
+  .col2 {
+    padding-left: 5%;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+}
